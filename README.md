@@ -1,13 +1,13 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 # 🚌 Desconto de Vale Transporte
-Este é o meu primeiro projeto em Java. Utilizei um problema real para praticar os conhecimentos adquiridos até o momento desta linguagem. Mas qua seria a regra de negócio?
+Este é o meu primeiro projeto em Java, baseado em um problema real que serviu para eu praticar os conhecimentos adquiridos até o momento desta linguagem.
+
+Mas qual seria a regra de negócio?
 
 Bom, atualmente faço parte do Setor Pessoal do Grupo Indiana, uma das maiores revendedoras de veículos automotores (novos e seminovos) do estado da Bahia, e uma das minhas atribuições é conferir se os descontos de Vale Transporte foram calculados de maneira correta. Segundo a legislação, o teto deve ser 6% do salário do colaborador, incluindo comissões caso houver. 
 
-Dessa forma, visto que a partir do Java eu poderia agilizar, otimizar e tornar mais assertivo o processo, escolhi este para criar meu primeiro programa.
-
-PS: Não é o código mais limpo que vocês iram ver, mas que cumpre com o que promete.
+Dessa forma, visto que a partir do Java eu poderia agilizar, otimizar e tornar mais assertivo o processo, escolhi este para criar meu primeiro programa. 
 
 # :hammer: Funcionalidades do projeto
 
@@ -23,6 +23,6 @@ PS: Não é o código mais limpo que vocês iram ver, mas que cumpre com o que p
 - `Estruturas de repetição`;
 - `Estruturas de controle`;
 - `Operadores relacionais`;
-- `Operadores aritiméticos`;
+- `Operadores aritméticos`;
 
 
