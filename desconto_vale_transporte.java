@@ -1,4 +1,4 @@
-import java.text.DecimalFormatSymbols;
+
 import java.util.Scanner; //Importação da biblioteca Scanner
 
 public class App {
@@ -16,7 +16,7 @@ public class App {
         // Menu
         System.out.println("----------------------------------------- ");
         System.out.println("--------------- BEM-VINDO(A) ------------ ");
-        System.out.println("------ QUAL CÁLCULO DESEJA REALIZAR? ---- ");
+        System.out.println("------ QUAL CALCULO DESEJA REALIZAR? ---- ");
         System.out.println("----------------------------------------- ");
         System.out.println("------------- (1) MENSALISTA ------------ ");
         System.out.println("------------ (2) COMISSIONADO ----------- ");
@@ -41,8 +41,8 @@ public class App {
         
         else if (tipo == 2) { // Sequência de instruções para o tipo comissionado
         System.out.println("");
-        System.out.println("Digite o salário do colaborador: ");
-        salario = entrad.nextDouble();
+//         System.out.println("Digite o salário do colaborador (coloque o valor zero (0) para calcular corretamente): ");
+//         salario = entrad.nextDouble();
             int decisao, contador=1;
             double comissao, totalcomissao=0, remuneracaototal=0;
             do {
@@ -50,13 +50,13 @@ public class App {
             System.out.println("Digite a comissão " + contador + " do colaborador: ");
             comissao = entrad.nextDouble();
             totalcomissao = totalcomissao + comissao;
-            remuneracaototal = salario + totalcomissao;
+            remuneracaototal = /*salario +*/ totalcomissao;
             contador++;
 
             System.out.println(""); 
             System.out.println("-------------------------------------"); 
             System.out.println("Total em comissões: "+totalcomissao); 
-            System.out.println("Salário + comissões: "+remuneracaototal); 
+//             System.out.println("Salário + comissões: "+remuneracaototal); 
             System.out.println(""); 
             System.out.println("Deseja lançar mais comissões?"); 
             System.out.println("(1) Sim");
